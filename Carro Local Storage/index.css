@@ -1,0 +1,53 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Campos de entrada */
+input {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #e61d1d;
+    outline: none;
+}
+
+/* Botão */
+button.salvar {
+    background-color: #e61d1d;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.salvar:hover {
+    background-color: #db4545;
+    transform: scale(1.05);
+}
+
+/* Imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
